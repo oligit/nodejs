@@ -1,0 +1,10 @@
+{
+  "name": "ejercicio3",
+  "version": "0.0.0",
+  "description": "ejercicio3",
+  "main": "server.js",
+  "author": {
+    "name": "olivas",
+    "email": ""
+  }
+}
