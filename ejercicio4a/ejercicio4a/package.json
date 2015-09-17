@@ -1,0 +1,10 @@
+{
+  "name": "ejercicio4a",
+  "version": "0.0.0",
+  "description": "ejercicio4a",
+  "main": "server.js",
+  "author": {
+    "name": "olivas",
+    "email": ""
+  }
+}

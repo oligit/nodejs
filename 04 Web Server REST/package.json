@@ -1,0 +1,10 @@
+{
+  "name": "04-Web-Server-REST",
+  "version": "0.0.0",
+  "description": "04 Web Server REST",
+  "main": "app.js",
+  "author": {
+    "name": "Alejandro",
+    "email": ""
+  }
+}
