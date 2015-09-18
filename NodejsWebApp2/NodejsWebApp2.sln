@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "ejercicio6", "NodejsWebApp2\ejercicio6.njsproj", "{D10C8873-E37C-430D-863B-23EB5E296A0D}"
+EndProject
+Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "ejercicio5b", "..\ejercicio5b\ejercicio5b\ejercicio5b.njsproj", "{62814F42-CD76-44EC-B411-E8A4298CA6AA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D10C8873-E37C-430D-863B-23EB5E296A0D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D10C8873-E37C-430D-863B-23EB5E296A0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D10C8873-E37C-430D-863B-23EB5E296A0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D10C8873-E37C-430D-863B-23EB5E296A0D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{62814F42-CD76-44EC-B411-E8A4298CA6AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62814F42-CD76-44EC-B411-E8A4298CA6AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62814F42-CD76-44EC-B411-E8A4298CA6AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62814F42-CD76-44EC-B411-E8A4298CA6AA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

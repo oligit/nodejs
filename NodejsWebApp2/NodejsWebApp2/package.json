@@ -1,0 +1,13 @@
+{
+  "name": "ejercicio6",
+  "version": "0.0.0",
+  "description": "ejercicio6",
+  "main": "server.js",
+  "author": {
+    "name": "olivas",
+    "email": ""
+  },
+  "dependencies": {
+    "express": "^4.13.3"
+  }
+}
