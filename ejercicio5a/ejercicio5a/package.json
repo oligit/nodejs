@@ -1,0 +1,15 @@
+{
+  "name": "ejercicio5a",
+  "version": "0.0.0",
+  "description": "ejercicio5a",
+  "main": "app.js",
+  "author": {
+    "name": "olivas",
+    "email": ""
+  },
+  "dependencies": {
+    "express": "3.4.4",
+    "jade": "*",
+    "stylus": "*"
+  }
+}
