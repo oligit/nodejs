@@ -1,0 +1,10 @@
+﻿doctype html
+html(xmlns='http://www.w3.org/1999/xhtml')
+  head
+    meta(charset='utf-8')
+    title
+  body
+    form(action='/submitHello', method='GET')
+      label(for='name') Introduce tu nombre
+      input#name(type='text', name='name', value='')
+      input(type='submit', name='btn', value='submit')
