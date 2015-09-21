@@ -30,15 +30,18 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 // development only
 if ('development' == app.get('env')) {
-    app.use(express.errorHandler());
+    app.use(express.errorhandler());
 }
 
 app.get('/', routes.index);
 app.get('/users', user.list);
 app.get('/form', form.imprimir);
-app.post('/submitHello', function (req, res) { 
-    console.info('entra en submitHello');
-    res.send('Gracias por su envío ' + req.body.name);
+app.post('/submitHello', function (req, res) {
+    if (req.method.toLowerCase() == 'post') {
+        console.info('entra en submitHello');
+        res.send('Gracias por su envío ' + req.body.name);
+    };
+    
 });
 
 http.createServer(app).listen(app.get('port'), function () {
